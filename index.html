@@ -14,13 +14,39 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:ElenaKas8/git.git
+git remote add origin lo
 git push -u origin main
 
 <h2>…or push an existing repository from the command line</h2>
 git remote add origin git@github.com:ElenaKas8/git.git
 git branch -M main
 git push -u origin main
+
+Путь где хранится файл с ключем
+
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+
+git rev-parse --show-toplevel
+
+создать дополнительную ветку 
+
+git checkout -b test
+
+
+git remote remove origin
+
+
+Переключение между ветками
+
+git checkaut main test
+
+удаление ветки 
+
+git branch -d 
+создать новую ветку
+
+git checkout -b test
+
 
 </body>
 </html>
